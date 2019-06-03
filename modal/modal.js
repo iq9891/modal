@@ -21,4 +21,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default {
   version: '1.0.0',
   install,
+  ModalWap,
 };
