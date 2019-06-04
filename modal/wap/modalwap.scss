@@ -28,7 +28,7 @@
 
   &-content {
     @include px2rem('padding', 40px 68px);
-    @include font(24px);
+    @include font(28px);
 
     font-family: 'PingFangSC-Regular';
     color: #383838;
@@ -46,7 +46,7 @@
     &-left,
     &-right {
       @include height(70px,70px);
-      @include font(24px);
+      @include font(28px);
 
       font-family: 'PingFangSC-Regular';
       font-size: 12px;
