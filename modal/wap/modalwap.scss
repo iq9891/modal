@@ -17,17 +17,18 @@
   }
 
   &-main {
+    @include radius(16px);
+
     min-width: 60vw;
     position: absolute;
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
     background-color: $background-color-write;
-    border-radius: 3px;
   }
 
   &-content {
-    @include px2rem('padding', 40px 68px);
+    @include px2rem('padding', 48px 68px);
     @include font(28px);
 
     font-family: 'PingFangSC-Regular';
@@ -45,7 +46,7 @@
 
     &-left,
     &-right {
-      @include height(70px,70px);
+      @include height(88px,88px);
       @include font(28px);
 
       font-family: 'PingFangSC-Regular';
