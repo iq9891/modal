@@ -42,7 +42,7 @@
     display: flex;
     justify-content: space-between;
 
-    @include border(1px, #f0f0f8, top);
+    @include border(2px, #f0f0f8, top);
 
     &-left,
     &-right {
@@ -57,7 +57,7 @@
     }
 
     &-left {
-      @include border(1px, #f0f0f8, right);
+      @include border(2px, #f0f0f8, right);
 
       color: #0297fe;
     }
