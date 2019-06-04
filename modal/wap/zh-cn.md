@@ -3,7 +3,7 @@
 
 ## 基本用法
 
-<!-- [浏览器手机模式在线预览](https://output.jsbin.com/tisusuk) -->
+[浏览器手机模式在线预览](https://output.jsbin.com/devewen)
 
 <br>
 

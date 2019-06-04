@@ -2,10 +2,8 @@
   <div class="wmodal" :style="{ zIndex: zIndex }">
     <div class="wmodal-bgc"></div>
     <div class="wmodal-main">
-      <div class="wmodal-title">
-       <span  class="wmodal-text">
-         <slot></slot>
-       </span>
+      <div class="wmodal-content">
+        <slot></slot>
       </div>
       <div class="wmodal-btnGroup">
         <div class="wmodal-btnGroup-left" @click='cancelBtn'>{{cancelText}}</div>
